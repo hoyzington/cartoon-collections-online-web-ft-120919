@@ -1,11 +1,11 @@
 
 def roll_call_dwarves(dwarfs)
-  dwarfs.each_with_index {|dwarf|
+  dwarfs.each_with_index {|dwarf, index| puts "#{index}. #{dwarf}"
 end
 
 
 def summon_captain_planet(elements)
-  
+  elements.map {|element| 
 end
 
 
