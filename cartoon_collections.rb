@@ -5,7 +5,9 @@ end
 
 
 def summon_captain_planet(elements)
-  elements.map {|element| 
+  calls = []
+  elements.map {|element| calls << element.upcase + "!"}
+  calls
 end
 
 
