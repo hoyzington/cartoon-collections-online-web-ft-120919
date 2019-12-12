@@ -1,16 +1,20 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+
+def roll_call_dwarves(dwarfs)
+  dwarfs.each_with_index {|dwarf|
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+
+def summon_captain_planet(elements)
+  
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+
+def long_planeteer_calls(calls)
+  
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+
+def find_the_cheese(foods)
+  
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
